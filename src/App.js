@@ -6,12 +6,13 @@ export default function App() {
   return ( 
   <div className="App">
     <div className="container">
-    <Weather />
+    <Weather defaultCity="New York" />
     <footer>
-      This project was codes by Masana Mabasa and is{" "}
+      This project was coded by Masana Mabasa and is{" "}
       <a 
        href="https://github.com/masana-hub/react-weather-app" 
-       target="_blank"
+       target="_blank" 
+       rel="noreferrer"
       >
        open-source on GitHub
       </a>
